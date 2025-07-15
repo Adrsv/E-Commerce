@@ -1,0 +1,28 @@
+# Core de Flask
+Flask>=2.2.5
+
+# ORM y base de datos (MariaDB Connector/Python)
+Flask-SQLAlchemy>=3.0.4
+mariadb>=1.1.0
+
+# Migraciones de esquema
+Flask-Migrate>=4.0.4
+
+# Autenticación y seguridad
+Flask-Login>=0.6.2
+Flask-Bcrypt>=1.0.1
+
+# Formularios y validación
+Flask-WTF>=1.1.1
+
+# Configuración de entorno
+python-dotenv>=1.0.0
+
+# Envío de correos
+Flask-Mail>=0.9.1
+
+# Pasarela de pagos (Stripe como ejemplo)
+stripe>=5.0.0
+
+# WSGI server para producción
+gunicorn>=20.1.0
