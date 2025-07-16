@@ -1,5 +1,5 @@
 from flask import Flask
-from .home import home_bp
+from app.home import home_bp
 
 def create_app():
     app = Flask(__name__)
